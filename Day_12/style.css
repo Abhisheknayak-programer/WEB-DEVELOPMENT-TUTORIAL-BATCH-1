@@ -1,0 +1,13 @@
+.happyIcon {
+  font-size: 30px;
+  color: red;
+}
+
+.mountain_img {
+  clip-path: polygon(49% 0, 0% 100%, 100% 100%);
+  border: 20px ridge red;
+  border: 20px inset red;
+  border: 20px solid red;
+  border: 20px outset red;
+  border: 20px double red;
+}
