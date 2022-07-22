@@ -1,0 +1,38 @@
+.profle_Image {
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+}
+
+.first_div {
+  border: 5px solid red;
+  height: 300px;
+  width: 300px;
+  /* margin: 50px 0; */
+  /* Vertical (top and bottom)  Horizontal (left and right) */
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.second_div {
+  border: 10px solid green;
+  cursor: alias;
+  cursor: cell;
+  cursor: copy;
+  cursor: crosshair;
+  cursor: pointer;
+  transition: all 0.8s;
+}
+
+.second_div:hover {
+  background-color: black;
+  color: green;
+  font-size: 50px;
+  border: 20px ridge red;
+  padding-top: 200px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 200px;
+}
