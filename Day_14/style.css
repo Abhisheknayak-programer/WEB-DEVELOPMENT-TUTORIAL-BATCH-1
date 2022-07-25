@@ -1,0 +1,40 @@
+.first__div {
+  border: 10px solid red;
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: space-around;
+  justify-content: space-between;
+}
+
+.first__div span,
+.Second__div p {
+  font-size: 2rem;
+}
+
+.first__div span {
+  border: 5px solid #000;
+  padding: 50px;
+}
+
+.Second__div p {
+  border: 10px solid green;
+}
+
+.Second__div {
+  display: flex;
+  gap: 5rem;
+}
+
+.image__card {
+  margin: 100px;
+  height: 500px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0.3rem 0.9rem 2.9rem rgba(0, 0, 0, 0.1);
+}
+
+.image__card span {
+  font-size: 2rem;
+}
