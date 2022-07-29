@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: #222;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav_links {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.nav_links:hover {
+  color: crimson;
+}
