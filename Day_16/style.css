@@ -1,0 +1,37 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav_links {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.nav_links:hover {
+  color: crimson;
+}
+
+.logo_box a {
+  color: white;
+  font-size: 2rem;
+  text-decoration: none;
+}
