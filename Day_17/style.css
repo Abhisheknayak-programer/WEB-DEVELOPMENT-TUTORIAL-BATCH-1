@@ -1,0 +1,13 @@
+.box1 {
+  background: url("https://images.pexels.com/photos/7925859/pexels-photo-7925859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+    center center/cover;
+  padding: 100px;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.bigParagraph {
+  line-height: 1.5;
+  font-size: 20px;
+}
