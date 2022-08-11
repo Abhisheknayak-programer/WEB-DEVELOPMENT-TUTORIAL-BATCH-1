@@ -1,0 +1,40 @@
+.box1 img {
+  height: 300px;
+  width: 300px;
+  border: 10px solid red;
+  position: relative;
+  top: 200px;
+  left: 200px;
+}
+
+.imageText {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+body {
+  height: 100vh;
+  background: radial-gradient(100% 225% at 100% 0%, #ff0000 0%, #000000 100%),
+    linear-gradient(236deg, #00c2ff 0%, #000000 100%),
+    linear-gradient(
+      135deg,
+      #cdffeb 0%,
+      #cdffeb 36%,
+      #009f9d 36%,
+      #009f9d 60%,
+      #07456f 60%,
+      #07456f 67%,
+      #0f0a3c 67%,
+      #0f0a3c 100%
+    );
+  background-blend-mode: overlay, hard-light, normal;
+}
+
+.box {
+  height: 100vh;
+  background-image: radial-gradient(
+    circle farthest-corner at 16.2% 39.3%,
+    rgba(21, 192, 143, 1) 0%,
+    rgba(179, 247, 199, 1) 90%
+  );
+}
