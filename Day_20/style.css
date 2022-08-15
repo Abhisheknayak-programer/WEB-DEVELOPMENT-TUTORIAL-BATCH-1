@@ -1,0 +1,50 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.box {
+  background-color: crimson;
+}
+
+.box p {
+  color: white;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* MEDIA QUERIES */
+/* BIG SIZE MOBILE : 576px*/
+/* MOBILE SIZE : 380px */
+/* TABLET SIZE : 768PX */
+/* SMALL LAPTOP SIZE : 992px */
+/* LAPTOP SIZE : 1200px */
+/* DESKTOP SIZE : 1400px */
+
+/* LAPTOP SIZE */
+@media (max-width: 1200px) {
+  .box {
+    background-color: black;
+  }
+}
+
+/* TABLET SIZE */
+@media (max-width: 768px) {
+  .box {
+    background-color: green;
+  }
+}
+
+/* MOBILE SIZE */
+@media (max-width: 380px) {
+  .box {
+    background-color: yellow;
+    border: 10px solid red;
+  }
+
+  .box p {
+    color: black;
+  }
+}
