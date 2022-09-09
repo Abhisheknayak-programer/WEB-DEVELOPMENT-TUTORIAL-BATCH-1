@@ -1,0 +1,23 @@
+.btn {
+  background-color: crimson;
+  color: white;
+  padding: 7px 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: rgb(193, 20, 220);
+  color: white;
+  padding: 1rem;
+  margin: 5rem;
+}
+
+.boxactive {
+  background-color: crimson;
+}
