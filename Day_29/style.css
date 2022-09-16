@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two&family=Metal+Mania&family=Quicksand:wght@600&display=swap");
+
+/* font-family: 'Lobster Two', cursive;
+font-family: 'Metal Mania', cursive;
+font-family: 'Quicksand', sans-serif; */
+
+.heading {
+  font-family: "Lobster Two", cursive;
+  color: crimson;
+  font-size: 2rem;
+}
+
+.firstPara {
+  font-family: "Metal Mania", cursive;
+  font-size: 1.4rem;
+  color: #222;
+}
+
+.name {
+  font-family: "Quicksand", sans-serif;
+  color: aqua;
+}
+
+.secondPara {
+  font-family: "Lobster Two", cursive;
+}
+
+.box {
+  border: 5px solid red;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* HOMEWORK
+1. Use 3 different fonts from google font. 
+2. Use 3 different images having height and width equals to 300px and use display properties to align it to center. 
+*/
