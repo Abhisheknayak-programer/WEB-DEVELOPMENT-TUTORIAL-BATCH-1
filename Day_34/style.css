@@ -1,0 +1,9 @@
+.carouselSection {
+  width: 50%;
+  margin: auto;
+}
+
+.carouselSection img {
+  width: 100% !important;
+  height: 500px !important;
+}
